@@ -1,0 +1,54 @@
+body {
+    color:rgb(255, 255, 255);
+    background:rgb(44, 43, 125);
+    margin: 0px;
+    font-family: "Jacques Francois Shadow", serif;
+    
+}
+
+header {
+    border-bottom: solid 10px rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    background: black;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    display: flex;
+    justify-content:center;
+    font-family: "Pirata One", system-ui;
+    font-size:x-large;
+    font-style:normal;
+    flex-wrap:wrap;
+}
+
+.chamada-texto {
+    margin-left:4%;
+    
+}
+
+img {
+    height: 250px;
+}
+
+.categoria-vídeos {
+    display:flex;
+    gap: 20px;
+}
+
+.videos {
+    background:rgb(44, 43, 125)
+}
+
+.videos img {
+    opacity: 0.5;
+}
+
+.videos img:hover {
+    opacity: 1.0;
+    border: 2px solid white
+}
+
